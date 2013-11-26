@@ -2,12 +2,12 @@
 %define		modulename	xtable
 Summary:	Coerce data to LaTeX and HTML tables
 Name:		R-cran-%{modulename}
-Version:	1.7r0
+Version:	1.7r1
 Release:	1
 License:	GPL v2+
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	d830304efcf6e1985366064cb3f83639
+# Source0-md5:	ede8e4076134edd4743a7fb91e4a11c2
 BuildRequires:	R >= 2.8.1
 BuildRequires:	texlive-latex-ae
 BuildRequires:	texlive-latex-booktabs
